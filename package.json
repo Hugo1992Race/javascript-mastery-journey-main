@@ -1,0 +1,11 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "### Преобретая буткемп по [ЭТОЙ ССЫЛКЕ](https://stepik.org/a/197191/pay?promo=51f2e70c7ce4b640&utm_source=github.com&utm_medium=javascript_mastery_journey&utm_campaign=narodny_course&utm_term=first) вы получаете приятную скидку",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo",
+  "license": "ISC"
+}

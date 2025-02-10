@@ -1,0 +1,71 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: slategray;
+  }
+
+button   {
+  margin: 3px;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 7fr);
+  gap: 20px;
+}
+  
+.div1 {
+  grid-column: span 5 / span 5;
+  background-color: cadetblue;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+
+.div2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  grid-column: span 5 / span 5;
+  grid-row: span 3 / span 3;
+  grid-row-start: 2;
+  background-color: slategray;
+}
+
+.div3 {
+  grid-column: span 5 / span 5;
+  grid-row-start: 5;
+  text-align: center;
+  justify-content: end;
+  background-color: cadetblue;
+  align-items: end;
+}
+
+.div4 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+}
+
+x {
+  padding-right: 10px;
+}
